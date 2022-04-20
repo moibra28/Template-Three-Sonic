@@ -321,6 +321,10 @@ header .mega-menu img {
   .landing .text {
     text-align: center;
     margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }
 .landing .text h1 {
