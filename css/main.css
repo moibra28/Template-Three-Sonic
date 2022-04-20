@@ -298,6 +298,11 @@ header .mega-menu img {
   align-items: center;
   padding-bottom: 120px;
 }
+@media (max-width: 991px) {
+  .landing .container {
+  flex-direction: column;
+  }
+}
 .landing .go-down {
   color: var(--main-color);
   position: absolute;
@@ -315,12 +320,13 @@ header .mega-menu img {
 @media (max-width: 991px) {
   .landing .text {
     text-align: center;
+    margin-top: 60px;
   }
 }
 .landing .text h1 {
   font-size: 40px;
   margin: 0;
-  letter-spacing: -2px;
+  letter-spacing: -1px;
 }
 @media (max-width: 767px) {
   .landing .text h1 {
@@ -351,7 +357,7 @@ header .mega-menu img {
 }
 @media (max-width: 991px) {
   .landing .image img {
-    display: none;
+    width: 400px;
   }
 }
 /* end landing  */
@@ -1361,6 +1367,7 @@ right: 0;
 @media (max-width: 991px) {
   .discount .form {
     flex-basis: 100%;
+    padding-bottom: 30px;
   }
 }
 .discount .form .input {
